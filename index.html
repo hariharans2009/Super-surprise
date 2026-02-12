@@ -18,10 +18,15 @@
     </style>
 </head>
 <body>
+    <audio id="m" src="superstar-intro.mp3"></audio>
+    <button onclick="document.getElementById('m').play()">PLAY MUSIC</button>
     <pre id="output">ENTER YOUR NAME
 &
 SEE THE SURPRISE!
-    
+
+CLICK PLAY MUSIC BUTTON,
+AFTER LOADING!
+
 PLEASE WAIT, LOADING....</pre>
     
     <script type="py">
@@ -154,7 +159,7 @@ PLEASE WAIT, LOADING....</pre>
                 
             document.getElementById("output").innerText = ""
             name = name.upper()
-            screen_print("HERE IS YOUR SUPER STAR FONT ",name)
+            screen_print("CLICK PLAY MUSIC BUTTON ",name)
             screen_print("")
             screen_print("")
             screen_print("UNZOOM.....")
